@@ -1,0 +1,20 @@
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Override next.js image styling */
+.imageContainer {
+  width: 100%;
+}
+
+.imageContainer > span {
+  position: unset !important;
+}
+
+.image {
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
